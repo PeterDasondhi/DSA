@@ -6,7 +6,7 @@ public class Demo {
 	
 	public static void main(String[] arg) {
 		
-		int choice, data, k, x;
+		int choice, data, x;
 		
 		Scanner scan = new Scanner(System.in);
 		
@@ -73,35 +73,35 @@ public class Demo {
 				data = scan.nextInt();
 				System.out.println("Enter the element after which to insert : ");
 				x = scan.nextInt();
-//				list.insertAfter(data, x);
+				list.insertAfter(data, x);
 				break;
 			case 7:
 				System.out.println("Enter the element to be inserted : ");
 				data = scan.nextInt();
 				System.out.println("Enter the element before which to insert : ");
 				x = scan.nextInt();
-//				list.insertBefore(data, x);
+				list.insertBefore(data, x);
 				break;
 			case 8:
 			System.out.println("Enter the element to be inserted : ");
 			data = scan.nextInt();
 			System.out.println("Enter the position at which to insert : ");
 			x = scan.nextInt();
-//			list.insertAtPosition(data, x);
+			list.insertAtPosition(data, x);
 				break;
 			case 9:
-//				list.deleteFirstNode();
+				list.deleteFirstNode();
 				break;
 			case 10:
-//				list.deleteLastNode();
+				list.deleteLastNode();
 				break;
 			case 11:
 				System.out.println("Enter the element to be inserted : ");
 				data = scan.nextInt();
-//				list.deleteNode(data);
+				list.deleteNode(data);
 				break;
 			case 12:
-//				list.reverseList();
+				list.reverseList();
 				break;
 			case 13:
 //				list.bubbleSortExData();
